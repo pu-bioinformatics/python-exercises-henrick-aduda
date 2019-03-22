@@ -4,7 +4,7 @@ def DNA_Validity(seq):
     ifValid = True
     for base in seq:
         if base not in valid:
-            ifValid=ifValid and False ##CK: Jyust needed: ifValid = False -1
+            ifValid=ifValid and False ##CK: Jyust needed: ifValid = False -1 (-2 for similar code with Martha)
         else:
             ifValid=ifValid and True ##CK: The else block wouldn't really be necessary
     return ifValid
