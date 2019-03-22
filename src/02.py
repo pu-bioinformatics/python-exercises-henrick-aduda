@@ -1,10 +1,13 @@
 #Module2
+trna='AAGGGCTTAGCTTAATTAAAGTGGCTGATTTGCGTTCAGTTGATGCAGAGTGGGGTTTTGCAGTCCTTA' #defining trna as a string  
+#CK The trna should be initialized before usage -1
+
 A_count=trna.count('A')
 C_count=trna.count('C')
 G_count=trna.count('G')
 T_count=trna.count('T')
 
-trna='AAGGGCTTAGCTTAATTAAAGTGGCTGATTTGCGTTCAGTTGATGCAGAGTGGGGTTTTGCAGTCCTTA' #defining trna as a string 
+
 print("The length of the trna sequence is %i" % len (trna), "nucleotides") #showing the total number of bases in the sequences
 C_count=trna.count('C') #counting the total number of G's in the trna sequence
 G_count=trna.count('G') #counting the total number of C's in the trna sequence

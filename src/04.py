@@ -6,6 +6,7 @@ DNA_seq.reverse()#reversing the given sequence
 print ("This is the reverse string of the given DNA sequence=",'' .join (DNA_seq))# Printing the output of the reverse sequence
 
 DNA="AAAATATAATGCGGAGGCCTCGGGATATATCGGCGGAGCCCTAAAAA" #Declaring the reverse sequence as a string so as to come up with a complement using string.replace feature
+#CK: By declaring a new DNA sequence,  you only end up with the DNA complement, but notreversed. -2
 DNA= DNA.replace('A','t')# Using replace feature to give complement of the bases
 DNA=DNA.replace('C','g')
 DNA=DNA.replace('G','c')
